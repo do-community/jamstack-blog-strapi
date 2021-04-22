@@ -8,8 +8,8 @@ This is a demo app that demonstrates a fullstack app on [App Platform](https://w
 
 ## Instructions
 
-1. Deploy this Strapi app
-1. Deploy the [Next.js app](https://github.com/do-community/jamstack-blog-nextjs)
+1. Deploy this [Strapi app](https://github.com/do-community/jamstack-blog-strapi)
+1. Deploy the Next.js app
 1. Connect the 2 apps via environment variables in the Next.js app: `NEXT_PUBLIC_API_URL`
 
 ## Requirements
