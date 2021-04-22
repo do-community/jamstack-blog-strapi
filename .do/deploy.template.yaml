@@ -1,0 +1,13 @@
+spec:
+  name: jamstack-blog-strapi
+  services:
+    - name: strapi
+      build_command: NODE_ENV=production npm run build
+      run_command: NODE_ENV=production npm start
+      git:
+        branch: master
+        repo_clone_url: https://github.com/chris-on-code/jamstack-blog-strapi.git
+      envs:
+        - key: DATABASE_URL
+          scope: RUN_AND_BUILD_TIME
+          value: ${db.DATABASE_URL}
