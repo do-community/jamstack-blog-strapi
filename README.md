@@ -12,6 +12,13 @@ This is a demo app that demonstrates a fullstack app on [App Platform](https://w
 1. Deploy the [Next.js app](https://github.com/do-community/jamstack-blog-nextjs)
 1. Connect the 2 apps via environment variables in the Next.js app: `NEXT_APP_API_URL`
 
+## Requirements
+
+A MongoDB Database through DigitalOcean.
+
+1. Login to your [DigitalOcean dashboard](https://cloud.digitalocean.com/databases)
+2. Create a MongoDB database
+
 ## Deploy
 
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/chris-on-code/jamstack-blog-strapi/tree/master)
